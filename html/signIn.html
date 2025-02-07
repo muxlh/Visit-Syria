@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تسجيل الدخول</title>
     <!--Css-->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/css/signIn.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/signIn.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .fade-in {
@@ -45,27 +45,27 @@
             <div id="mobile-menu"
                 class="hidden sm:hidden absolute top-20 left-0 w-full bg-gray-800 shadow-lg rounded-b-2xl ">
                 <ul class="flex flex-col items-center space-y-4 p-4">
-                    <li><a href="/index.html" class="hover:text-orange-400 transition duration-200">الرئيسية</a></li>
-                    <li><a href="/html/store.html" class="hover:text-orange-400 transition duration-200">المتجر</a></li>
-                    <li><a href="/html/city.html" class="hover:text-orange-400 transition duration-200"> المدن </a></li>
-                    <li><a href="/html/event.html" class="hover:text-orange-400 transition duration-200">الفعاليات</a>
+                    <li><a href="./index.html" class="hover:text-orange-400 transition duration-200">الرئيسية</a></li>
+                    <li><a href="./html/store.html" class="hover:text-orange-400 transition duration-200">المتجر</a></li>
+                    <li><a href="./html/city.html" class="hover:text-orange-400 transition duration-200"> المدن </a></li>
+                    <li><a href="./html/event.html" class="hover:text-orange-400 transition duration-200">الفعاليات</a>
                     </li>
                 </ul>
             </div>
 
             <div>
                 <ul class="hidden sm:flex space-x-10">
-                    <li><a href="/index.html" class="hover:text-orange-400 transition duration-200">الرئيسية</a></li>
-                    <li><a href="/html/store.html" class="hover:text-orange-400 transition duration-200">المتجر</a></li>
-                    <li><a href="/html/city.html" class="hover:text-orange-400 transition duration-200"> المدن </a></li>
-                    <li><a href="/html/event.html" class="hover:text-orange-400 transition duration-200">الفعاليات</a>
+                    <li><a href="./index.html" class="hover:text-orange-400 transition duration-200">الرئيسية</a></li>
+                    <li><a href="./html/store.html" class="hover:text-orange-400 transition duration-200">المتجر</a></li>
+                    <li><a href="./html/city.html" class="hover:text-orange-400 transition duration-200"> المدن </a></li>
+                    <li><a href="./html/event.html" class="hover:text-orange-400 transition duration-200">الفعاليات</a>
                     </li>
 
                 </ul>
             </div>
             <!--logo-->
             <div id="logo" class="flex items-center">
-                <a href="/index.html"><img src="/img/white-logo.png" alt="logo" class="h-16 w-auto "></a>
+                <a href="./index.html"><img src="./img/white-logo.png" alt="logo" class="h-16 w-auto "></a>
             </div>
 
         </nav>
@@ -92,7 +92,7 @@
                     type="password" id="password" placeholder="••••••••" required>
                 <button type="button" onclick="togglePasswordVisibility()"
                     class="absolute right-4 top-1/2 transform  text-slate-600">
-                    <img src="/img/eye.png" class="w-7 h-7">
+                    <img src="./img/eye.png" class="w-7 h-7">
                 </button>
                 <p id="passwordError" class="text-red-500 text-sm mt-1 hidden">يجب أن تحتوي كلمة المرور على 8 أحرف على
                     الأقل، وحرف كبير، ورقم.</p>
@@ -106,12 +106,12 @@
         </form>
 
         <p class="text-white text-center mt-4 text-sm">
-            ليس لديك حساب؟ <a href="/html/signUp.html" class="text-orange-500 font-semibold hover:underline">سجل
+            ليس لديك حساب؟ <a href="./html/signUp.html" class="text-orange-500 font-semibold hover:underline">سجل
                 الآن</a>
         </p>
     </div>
 
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
     <script>
         const form = document.getElementById("loginForm");
         const emailInput = document.getElementById("email");
